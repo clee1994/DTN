@@ -17,8 +17,6 @@ C = 2
 tau_val = R * C
 threshold_val = 1
 
-
-
 run_time = 800
 no_neurons = 1
 
@@ -27,7 +25,6 @@ eqs = '''
 dv/dt = (-v)/tau : 1
 tau : second
 '''
-
 
 ########
 #negative constant current
